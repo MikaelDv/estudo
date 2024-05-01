@@ -58,7 +58,7 @@
         const screenWidth = window.innerWidth;
         const screenHeight = window.innerHeight;
 
-        escapante.addEventListener('mouseenter', () => {
+        escapante.addEventListener('click', () => {
             const randomX = Math.random() * (screenWidth - escapante.offsetWidth);
             const randomY = Math.random() * (screenHeight - escapante.offsetHeight);
             escapante.style.left = `${randomX}px`;
